@@ -14,17 +14,34 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home',[
+        "title" => "Home"
+    ]);
 });
 
-Route::get('/about', function () {
-    return view('about', [
+Route::get('/owner', function () {
+    return view('owner', [
+        "title" => "Owner",
         "nama" => "Krisna Wahyudi",
         "email" => "krisnawahyudi2017@gmail.com",
         "image" => "krisna.png"
     ]);
 });
 
-Route::get('/blog', function () {
-    return view('posts');
+Route::get('/pesan', function () {
+    return view('pesan',[
+        "title" => "Pemesanan"
+    ]);
+});
+
+Route::get('/warna', function () {
+    return view('warna',[
+        "title" => "Warna Ready"
+    ]);
+});
+
+Route::get('/daftar', function () {
+    return view('daftar',[
+        "title" => "Daftar Harga"
+    ]);
 });

@@ -1,3 +1,54 @@
-body{
-    background-color: aquamarine;
+.limiter-menu-desktop {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.wrap-menu-desktop {
+    position: fixed;
+    z-index: 1100;
+    background-color: transparent;
+    width: 100%;
+    height: 84px;
+    top: 40px;
+    left: 0px;
+
+    -webkit-transition: height 0.3s, background-color 0.3s;
+    -o-transition: height 0.3s, background-color 0.3s;
+    -moz-transition: height 0.3s, background-color 0.3s;
+    transition: height 0.3s, background-color 0.3s;
+}
+.how-shadow1 {
+    box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.limiter-menu-desktop {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.animsition-loading-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
