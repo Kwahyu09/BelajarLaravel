@@ -45,3 +45,9 @@ Route::get('/daftar', function () {
         "title" => "Daftar Harga"
     ]);
 });
+
+Route::get('/detail', function () {
+    return view('detail',[
+        "title" => "Detail Buket"
+    ]);
+});
