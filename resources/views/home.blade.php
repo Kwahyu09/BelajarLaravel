@@ -30,6 +30,7 @@
 			<figcaption class="blockquote-footer">
 				Hadiat.<cite title="Source Title">store</cite>
 			</figcaption>
+			<div class="text-center text-md-center mt-3"><a class="btn btn-primary me-3 btn-lg" href="/owner" role="button">Owner</a></div>
 			</figure>
     </section>
 	</div>
