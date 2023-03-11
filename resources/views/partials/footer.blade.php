@@ -1,6 +1,6 @@
 <!-- Footer -->
 	<footer class="bg3 p-t-75 p-b-32">
-		<div class="container">
+		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12 p-b-50 txt-center">
 					<h4 class="stext-301 cl0">

@@ -6,8 +6,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-            <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
+            <li class="nav-item {{ ($title === "Home") ? 'active' : '' }}">
+            <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
             <a class="nav-link {{ ($title === "Warna Ready") ? 'active' : '' }}" href="/warna">Warna Ready</a>

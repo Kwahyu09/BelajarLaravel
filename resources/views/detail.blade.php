@@ -1,19 +1,19 @@
 @extends('layout.main')
 @section('container')
     <!-- Section-->
-        <section class="py-5">
+        <div class="py-5">
             <h1 class="text-center mb-5">Detail Buket</h1>
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-lg-16 mb-3">
                         <div class="card h-100 text-center">
                             <div class="text-center mt-3">
-                                <img src="img/hadiat.png" width="200 px" alt="Buket Balon">
+                                <img src="../img/{{ $model["photo"] }}" width="200 px" alt="Buket Balon">
                             </div>
-                            <h5 class="fw-bolder">Buket Biasa 25 Tangkai</h5>
-                            <p>Harga : &nbsp; 100.000 <br>
-                                Jumlah Kelopak : &nbsp; 25 <br>
-                                Jumlah Tangkai : &nbsp; 25 <br>
+                            <h5 class="fw-bolder">{{ $model["judul"] }}</h5>
+                            <p>Harga : &nbsp; Rp. {{ $model["harga"] }},- <br>
+                                Jumlah Kelopak : &nbsp; {{ $model["jum-kel"] }} <br>
+                                Jumlah Tangkai : &nbsp; {{ $model["jum-tang"] }} <br>
                                 Free Greting Card <br>
                                 Free Pita
                             </p>
@@ -25,5 +25,5 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 @endsection
