@@ -17,7 +17,7 @@ class WarnaController extends Controller
     {
         return view('warna',[
         "title" => "Warna Ready",
-        "posts" => Warna::warna()
+        "posts" => Warna::all()
     ]);
     }
 

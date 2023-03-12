@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Owner extends Model
 {
     use HasFactory;
+
+    // protected $fillable = [
+    //     'nama',
+    //     'email',
+    //     'image',
+    // ];
+    protected $guarded = ['id'];
 }

@@ -28,5 +28,5 @@ Route::get('/pesan', function () {
 });
 Route::get('/warna', [WarnaController::class, 'index']);
 Route::get('/daftar', [ModelssController::class, 'index']);
-Route::get('/detail/{slug}', [ModelssController::class, 'show']);
+Route::get('/detail/{modelss:slug}', [ModelssController::class, 'show']);
 Route::get('/owner',[OwnerController::class,'index']);

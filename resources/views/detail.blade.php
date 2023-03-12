@@ -8,10 +8,10 @@
                     <div class="col-lg-16 mb-3">
                         <div class="card h-100 text-center">
                             <div class="text-center mt-3">
-                                <img src="../img/{{ $model["photo"] }}" width="200 px" alt="Buket Balon">
+                                <img src="../img/{{ $model->photo }}.png" width="200 px" alt="Buket Balon">
                             </div>
-                            <h5 class="fw-bolder">{{ $model["judul"] }}</h5>
-                            <p>Harga : &nbsp; Rp. {{ $model["harga"] }},- <br>
+                            <h5 class="fw-bolder">{{ $model->judul }}</h5>
+                            <p>Harga : &nbsp; Rp. {{ $model->harga }},- <br>
                                 Jumlah Kelopak : &nbsp; {{ $model["jum-kel"] }} <br>
                                 Jumlah Tangkai : &nbsp; {{ $model["jum-tang"] }} <br>
                                 Free Greting Card <br>

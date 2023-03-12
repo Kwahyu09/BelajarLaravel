@@ -48,11 +48,13 @@ class ModelssController extends Controller
      * @param  \App\Models\Modelss  $modelss
      * @return \Illuminate\Http\Response
      */
-    public function show($slug)
+    public function show(Modelss $modelss)
     {
         return view('detail',[
         "title" => "Detail Buket",
-        "model" => Modelss::find($slug)
+        //Route model banding -> mengirimkan modelnya tidak lahi id atau slug
+        // "model" => Modelss::find($modelss)
+        "model" => $modelss
     ]);
     }
 

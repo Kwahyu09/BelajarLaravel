@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('modelsses', function (Blueprint $table) {
             $table->id();
+            $table->string('judul');
+            $table->string('slug')->unique();
+            $table->string('photo');
+            $table->integer('harga');
+            $table->integer('jum-kel');
+            $table->integer('jum-tang');
             $table->timestamps();
         });
     }
